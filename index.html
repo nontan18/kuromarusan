@@ -14,9 +14,10 @@
 <body>
   <header id="header">
   </header>
-  <div id="menu">
-  </div>
   <div id="contents">
+    <div class="section-title">
+      <center><h1>「隣の●さん」とは？</h1></center>
+    </div>
     <section class="bg-white">
       <div class="content-wrapper">
         <div class="content left-content">
@@ -24,16 +25,18 @@
         </div>
         <div class="content right-content">
           <h2>友達がいなくても<br />
-            '隣の●さん'がいれば<br />
+            ’●さん’がいれば<br />
             誰かと繋がれる</h2>
           <p>
-            '隣の●さん'は、どこかの誰かとLINEをつなげてくれるLINE Botです。「こんにちは」とラインすると全世界から、他に「こんにちは」とラインしてきた人とLINEを繋いでくれます。<br />
-            もう、友達がいないからとLINEをあきらめる必要はありません！
+            「隣の<span class="kuromarusan-icon" width="20px"></span>さん」は、どこかの誰かとLINEをつなげてくれるLINE Botです。「こんにちは」とラインすると全世界から、他に「こんにちは」とラインしてきた人とLINEを繋いでくれます。<br />
           </p>
         </div>
       </div>
     </section>
-    <section class="bg-black">
+    <div class="section-title" style="background-color:#A40000">
+      <center><h1>はじめかた</h1></center>
+    </div>
+    <section class="bg-white">
       <div class="content-wrapper">
         <div class="content left-content">
           <h2>QRを読み取ろう</h2>
@@ -46,7 +49,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-black">
+    <section class="bg-white">
       <div class="content-wrapper">
         <div class="content left-content">
           <center><img src="./img/ss02.png" width="250px" height="auto"></center>
@@ -59,7 +62,7 @@
         </div>
       </div>
     </section>
-    <section class="bg-black">
+    <section class="bg-white">
       <div class="content-wrapper">
         <div class="content left-content">
           <h2>「こんにちは」</h2>
@@ -72,10 +75,60 @@
         </div>
       </div>
     </section>
+    <div class="section-title" style="background-color:#55acee">
+      <center><h1>Twitterと連携</h1></center>
+    </div>
+    <section class="bg-white">
+      <div class="content-wrapper">
+        <div class="content left-content">
+          <center><img src="./img/ss04.png" width="250px" height="auto"></center>
+        </div>
+        <div class="content right-content">
+          <h2>Twitter連携をタップ</h2>
+          <p>
+            「隣の●さん」を開いて、「SNS連携」→「Twitter連携」をタップします。
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="content-wrapper">
+        <div class="content left-content">
+          <h2>URLにアクセス</h2>
+          <p>
+            ●さんから送られてきた認証用URLにアクセスしてください。
+          </p>
+        </div>
+        <div class="content right-content">
+          <center><img src="./img/ss05.png" width="250px" height="auto"></center>
+        </div>
+      </div>
+    </section>
+    <section class="bg-white">
+      <div class="content-wrapper">
+        <div class="content left-content">
+          <center><img src="./img/ss06.png" width="250px" height="auto"></center>
+        </div>
+        <div class="content right-content">
+          <h2>連携アプリを認証</h2>
+          <p>
+            Twitterの連携認証ページが表示されましたら、「連携アプリを認証」をタップすると連携が完了します。
+          </p>
+        </div>
+      </div>
+    </section>
+
 
   </div>
 </body>
 <style>
+.kuromarusan-icon{
+  background: url("./img/kuromarusan.png") left top;
+  width:20px;
+  height:20px;
+  background-size: contain;
+  display: inline-block;.
+}
 body{
   margin: 0px!important;
   color: #222222;
@@ -105,6 +158,16 @@ section{
   padding-top: 50px;
   padding-bottom: 50px;
   width:100%;
+}
+.section-title{
+  width:100%;
+  background-color: #222222;
+  color: #fefefe;
+}
+h1{
+  -webkit-margin-before: 0px!important;
+  -webkit-margin-after: 0px!important;
+  font-size: 50px
 }
 .content-wrapper{
   width: 960px;
